@@ -1,0 +1,1 @@
+require 'gildedrose_kata''
