@@ -3,6 +3,15 @@ class GildedRose
     @items = items
   end
 
+  def update_conjured()
+    @items.each do |item|
+      while item.quality > 0 
+        name  == "conjured" ? item.quality = item.quality - 2 : 0
+      end
+    end
+  end
+
+
   def update_quality()
     @items.each do |item|
       if item.name != "Aged Brie" and item.name != "Backstage passes to a TAFKAL80ETC concert"
